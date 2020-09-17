@@ -1,0 +1,22 @@
+body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+
+.panel { background: white; max-width: 600px; margin: 100px auto 16px; padding: 32px 24px;}
+.panel h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+.panel h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+.panel p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+.panel button {appearance: none;border:none; display: inline-block; text-align: center; background: #039be5; text-decoration: none; color: white; padding: 0 10px;height: 34px;vertical-align: top;line-height: 34px;width:15%;cursor:pointer;}
+.panel button:focus {outline: none;}
+.panel { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+
+input.add-todo {height: 32px;width: 80%;padding: 0 10px;border:1px solid #000;margin-right:4px;}
+.list-todo {margin-top:30px;}
+.list-todo ul {padding-left:0;}
+.list-todo ul li {list-style: none;line-height: 32px;border-bottom:1px solid #ccc;padding:4px 0;}
+.list-todo ul li:hover {background-color: #d6e6f37d;}
+.list-todo ul li input[type="checkbox"], .list-todo ul li label, 
+.list-todo ul li .content, 
+.list-todo ul li .action-list {display:inline-block;}
+.list-todo ul li .content {width:82%;}
+.list-todo ul li .content input[type="text"] {height:25px;width:90%;}
+.list-todo ul li .action-list {float:right;}
+.list-todo ul li .action-list button {width:44%;margin-left:4px;}
